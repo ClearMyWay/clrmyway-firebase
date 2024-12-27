@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "680205942785",
+    "project_id": "clrmyway-b097f",
+    "storage_bucket": "clrmyway-b097f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680205942785:android:34be47d8d0db92c3b50000",
+        "android_client_info": {
+          "package_name": "com.google.firebase.presents.clrmyway"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGe9D09327IYtSBHn9YwLc_mY54trc0iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
