@@ -1,6 +1,8 @@
-import 'package:clrmyway/firebase_options.dart';
+import 'package:clrmyway/Sevices/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import './Ambulance/Authentication/Screens/login.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -47,11 +49,11 @@ class HomeScreen extends StatelessWidget {
                   margin: const EdgeInsets.only(bottom: 15),
                   child: ElevatedButton(
                     onPressed: () {
-                      // Navigate to AmbulanceLogin screen and replace the current screen
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => AmbulanceLogin()),
-                      // );
+                      //Navigate to AmbulanceLogin screen and replace the current screen
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => AmbulanceLogin()),
+                      );
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Color(0xFFE8F5E9),
