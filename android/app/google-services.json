@@ -7,6 +7,25 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:680205942785:android:462fa189a3680ab3b50000",
+        "android_client_info": {
+          "package_name": "clr.myway"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGe9D09327IYtSBHn9YwLc_mY54trc0iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:680205942785:android:34be47d8d0db92c3b50000",
         "android_client_info": {
           "package_name": "com.google.firebase.presents.clrmyway"
